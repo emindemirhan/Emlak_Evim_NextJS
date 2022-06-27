@@ -44,7 +44,7 @@ const Banner = ({
 export default function Home({ propertiesForSale, propertiesForRent }) {
   return (
     <Box>
-      <h1>Emlak Evim</h1>
+
 
       <Banner
         purpose="Ev Kirala"
