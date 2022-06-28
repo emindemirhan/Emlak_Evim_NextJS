@@ -1,3 +1,11 @@
+
+
+<a href="https://ibb.co/WsftQbk"><img src="https://i.ibb.co/fQHvbhk/emlakevim.png" alt="emlakevim" border="0" style="max-width: 100%;" ></a>
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
