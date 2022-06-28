@@ -14,7 +14,7 @@ const Search = ({ properties }) => {
   const router = useRouter();
 
   return (
-    <Box>
+    <Box  flexWrap="wrap" justifyContent="center" alignItems="center" m="10">
       <Flex
         onClick={() => setSearchFilters(!searchFilters)}
         cursor='pointer'
@@ -27,14 +27,14 @@ const Search = ({ properties }) => {
         justifyContent='center'
         alignItems='center'
       >
-        <Text>Search Property By Filters</Text>
+        <Text>Filtreleme Yaprak Mülk Arayın</Text>
         <Icon paddingLeft='2' w='7' as={BsFilter} />
       </Flex>
       {searchFilters && <SearchFilters />}
       <Text fontSize='2xl' p='4' fontWeight='bold'>
         Properties {router.query.purpose}
       </Text>
-      <Flex flexWrap='wrap'>
+      <Flex  flexWrap="wrap" justifyContent="center" alignItems="center" m="10">
         {properties.map((property) => <Property property={property} key={property.id} />)}
       </Flex>
       {properties.length === 0 && (
